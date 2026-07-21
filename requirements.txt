@@ -8,3 +8,4 @@ langchain
 langgraph
 langchain-groq
 groq
+langchain-google-genai
