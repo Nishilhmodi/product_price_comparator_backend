@@ -14,6 +14,7 @@ def search_products(query: str, num: int = 100):
         # Append allowed store filters to the query to maximize allowed platform results
         # in a single SerpApi token call (1 credit only).
         expanded_query = f"{query.strip()} (amazon OR flipkart OR myntra OR ajio)"
+        # expanded_query = query.strip()
         
         params = {
             "engine":  "google_shopping",
